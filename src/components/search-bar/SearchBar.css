@@ -1,0 +1,54 @@
+.search-bar_wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-bar_wrapper .input_wrapper {
+  display: flex;
+  align-items: center;
+}
+.search-bar_wrapper .input_wrapper .location-icon {
+  max-height: 3rem;
+  max-width: 3rem;
+  width: 100%;
+}
+.search-bar_wrapper .input_wrapper input {
+  width: 80%;
+  height: -moz-min-content;
+  height: min-content;
+  font-size: 2.4rem;
+  color: #06283D;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-left: 3.2rem;
+  border: none;
+}
+.search-bar_wrapper .input_wrapper input::-moz-placeholder {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #06283D;
+  text-transform: capitalize;
+}
+.search-bar_wrapper .input_wrapper input::placeholder {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #06283D;
+  text-transform: capitalize;
+}
+.search-bar_wrapper .search-icon_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 5rem;
+  border-radius: 50%;
+  font-size: 2.2rem;
+  background-color: #dff6ff;
+  cursor: pointer;
+}
+.search-bar_wrapper .search-icon_wrapper .search-icon {
+  max-width: 3rem;
+  max-height: 3rem;
+  width: 100%;
+}/*# sourceMappingURL=SearchBar.css.map */

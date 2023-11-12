@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$base-white: #fff;
+
+
 .my-app
 {
-    background-color: red;
-    color: white;
+    width: 40rem;
+    height: 10rem;
+    padding: 2.8rem 3.2rem;
+    border-radius: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: $base-white;
+    color: black;
+
 }

@@ -12,8 +12,15 @@
   outline: none;
   box-sizing: border-box;
 }
+html
+{
+  font-size: 62.5%;
+}
 body
 {
   min-height: 100vh;
   background-color: #06283D;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
