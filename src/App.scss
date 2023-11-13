@@ -17,4 +17,12 @@ $base-white: #fff;
     align-items: center;
     justify-content: space-between;
 
+    .extra-info
+    {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 3rem;
+    }
 }

@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"WindRes.css"}
+{"version":3,"sources":["WindRes.scss","WindRes.css"],"names":[],"mappings":"AAEA;EAEI,aAAA;EACA,mBAAA;ACFJ;ADGI;EAEQ,eAAA;EACA,oBAAA;ACFZ;ADII;EAEI,cAZK;ACSb;ADIQ;EAEI,iBAAA;EACA,gBAAA;ACHZ;ADKQ;EAEI,iBAAA;EACA,gBAAA;EACA,0BAAA;ACJZ","file":"WindRes.css"}
