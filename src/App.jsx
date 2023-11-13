@@ -1,5 +1,5 @@
 import { useState, useEffect,useRef } from 'react'
-import { SearchBar } from './components/main'
+import { SearchBar, WeatherRes } from './components/main'
 import axios from 'axios'
 import './App.scss'
 // https://api.openweathermap.org/data/2.5/weather?units=metric&q=London&appid=b1af9dc988407783a9a7c41508074fdf
@@ -29,6 +29,7 @@ function App() {
     <>
       <div className="my-app"> 
         <SearchBar />
+        <WeatherRes />
       </div>
     </>
   )

@@ -1,1 +1,29 @@
-/*# sourceMappingURL=WeatherRes.css.map */
+.weather-result_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.weather-result_wrapper img {
+  width: 60%;
+}
+.weather-result_wrapper .temperature-info_wrapper {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 4rem;
+}
+.weather-result_wrapper .temperature-info_wrapper p {
+  font-size: 6.4rem;
+  font-weight: 800;
+  color: #06283D;
+}
+.weather-result_wrapper .temperature-info_wrapper span {
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin-left: 1rem;
+}
+.weather-result_wrapper .description {
+  font-size: 2.2rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #06283D;
+}/*# sourceMappingURL=WeatherRes.css.map */
